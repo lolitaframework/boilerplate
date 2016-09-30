@@ -1,0 +1,65 @@
+[
+    {
+        "title" : "General site settings",
+        "description" : "This is general site settings",
+        "__CONTROLS__" : [
+            {
+                "label" : "Site Title",
+                "id" : "blogname",
+                "settings" : "blogname",
+                "__SETTINGS__" : {
+                    "type" : "option"
+                }
+            },
+            {
+                "label" : "Tagline",
+                "id" : "blogdescription",
+                "settings" : "blogdescription",
+                "__SETTINGS__" : {
+                    "type" : "option"
+                }
+            },
+            {
+                "label" : "Upload a logo",
+                "__CLASS__" : "WP_Customize_Image_Control"
+            },
+            {
+                "label" : "Apple touch icon 180x180 (png)",
+                "__CLASS__" : "WP_Customize_Image_Control"
+            },
+            {
+                "label" : "Fav icon 192x192 (png)",
+                "__CLASS__" : "WP_Customize_Image_Control"
+            },
+            {
+                "label" : "Fav icon 16x16 (png)",
+                "__CLASS__" : "WP_Customize_Image_Control"
+            },
+            {
+                "label" : "Social icons",
+                "__CLASS__" : "\\lolitatheme\\LolitaFramework\\Controls\\Repeater\\CustomizeRepeater",
+                "controls" : [
+                    {
+                        "name"     : "url",
+                        "__TYPE__" : "Text",
+                        "label"    : "Link"
+                    },
+                    {
+                        "name"     : "content",
+                        "__TYPE__" : "Text",
+                        "label"    : "Content"
+                    },
+                    {
+                        "name"     : "icon_css",
+                        "__TYPE__" : "Icons",
+                        "label"    : "Icon css class"
+                    }
+                ]
+            }
+        ]
+    },
+    "title_tagline",
+    "colors",
+    "header_image",
+    "background_image"
+]

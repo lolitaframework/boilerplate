@@ -1,0 +1,3 @@
+{
+    "standard" : "{{ \\lolitatheme\\LolitaFramework::baseDir }}/languages"
+}

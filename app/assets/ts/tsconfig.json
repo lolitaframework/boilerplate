@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "../js/lf.js",
+        "sourceMap": true
+    },
+    "files": [
+        "home_search.ts"
+    ]
+}

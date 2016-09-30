@@ -1,0 +1,39 @@
+{
+    "name" : "Lolita slider",
+    "description" : "Lolita slider widget",
+    "classname" : "lf_slider",
+    "controls" : [
+        {
+            "name"     : "title",
+            "__TYPE__" : "Text",
+            "label"    : "Title"
+        },
+        {
+            "name" : "slides",
+            "__TYPE__" : "Repeater",
+            "label" : "Slides",
+            "controls" : [
+                {
+                    "name"     : "title",
+                    "__TYPE__" : "Text",
+                    "label"    : "Title"
+                },
+                {
+                    "name"     : "subtitle",
+                    "__TYPE__" : "Text",
+                    "label"    : "Sub Title"
+                },
+                {
+                    "name"     : "content",
+                    "__TYPE__" : "Textarea",
+                    "label"    : "Content"
+                },
+                {
+                    "name"     : "link",
+                    "__TYPE__" : "Text",
+                    "label"    : "Link"
+                }
+            ]
+        }
+    ]
+}

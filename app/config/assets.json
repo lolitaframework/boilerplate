@@ -1,0 +1,17 @@
+{
+    "deregister_scripts" : [
+        ["jquery"]
+    ],
+    "scripts" : [
+        ["shortcode"],
+        ["wp-util"],
+        ["jquery", "{{ \\lolitatheme\\LolitaFramework::baseUrl }}/app/assets/js/jquery-2.2.4.js", [], "1.0", true],
+        ["main", "{{ \\lolitatheme\\LolitaFramework::baseUrl }}/app/assets/js/main.js", ["jquery"], "1.0", true]
+    ],
+    "styles" : [
+        ["main", "{{ \\lolitatheme\\LolitaFramework::baseUrl }}/app/assets/css/main.css", [], "1.0", "all"]
+    ],
+    "async_styles" : [
+        ["Open sans", "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i", [], "1.0", "all"]
+    ]
+}

@@ -1,0 +1,192 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 14, ../sass/components/utility/old_browsers.scss */
+.old-browsers-bg {
+  width: 100%;
+  height: 100%;
+  background: url(../img/old_browser/rectangle.png) center center no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+}
+
+/* line 16, ../sass/components/utility/old_browsers.scss */
+.old-browsers-block {
+  position: fixed;
+  font-family: 'OpenSans', sans-serif;
+  top: 50%;
+  left: 50%;
+  width: 470px;
+  height: 348px;
+  margin: -174px 0 0 -235px;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(63, 77, 89, 0.11);
+  z-index: 9999;
+}
+
+/* line 18, ../sass/components/utility/old_browsers.scss */
+.pindrop-logo {
+  width: 248px;
+  height: 78px;
+  background: url(../img/old_browser/pindrop@3x.png) center center no-repeat;
+  background-size: cover;
+  margin: 40px auto 0 auto;
+}
+
+/* line 20, ../sass/components/utility/old_browsers.scss */
+.seem {
+  width: 370px;
+  height: 20px;
+  margin: 25px auto 15px auto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #333333;
+}
+
+/* line 22, ../sass/components/utility/old_browsers.scss */
+.get {
+  width: 388px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  text-align: center;
+  color: #333333;
+}
+
+/* line 24, ../sass/components/utility/old_browsers.scss */
+.variants {
+  width: 284px;
+  margin: 26px auto 0 auto;
+}
+/* line 26, ../sass/components/utility/old_browsers.scss */
+.variants a {
+  margin-right: 30px;
+  display: inline-block;
+}
+/* line 28, ../sass/components/utility/old_browsers.scss */
+.variants a:last-child {
+  margin-right: 0;
+}
+
+/* line 12, ../sass/screen.scss */
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 13, ../sass/screen.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  font-size: 14px;
+  -webkit-text-size-adjust: none;
+  overflow-x: hidden;
+}
+
+/* line 15, ../sass/screen.scss */
+input {
+  outline: none;
+}
+
+/* line 17, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 19, ../sass/screen.scss */
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-height: 0;
+}
+
+/* line 21, ../sass/screen.scss */
+.clear {
+  clear: both;
+}

@@ -1,0 +1,28 @@
+{
+    "name" : "Lolita banner",
+    "description" : "Lolita logo widget",
+    "classname" : "lf_banner",
+    "controls" : [
+        {
+            "name"     : "title",
+            "__TYPE__" : "Text",
+            "label"    : "Title"
+        },
+        {
+            "name"     : "url",
+            "__TYPE__" : "Text",
+            "label"    : "URL"
+        },
+        {
+            "name"     : "img",
+            "__TYPE__" : "Media",
+            "label"    : "Image"
+        },
+        {
+            "name"     : "content",
+            "__TYPE__" : "Textarea",
+            "label"    : "Content",
+            "rows"     : "10"
+        }
+    ]
+}

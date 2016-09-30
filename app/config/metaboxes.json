@@ -1,0 +1,14 @@
+{
+    "additional" : {
+        "title" : "Additionals",
+        "screen" : "page",
+        "priority" : "high",
+        "controls" : [
+            {
+                "__TYPE__" : "Text",
+                "name" : "sub_title",
+                "label" : "Sub-Title"
+            }
+        ]
+    }
+}

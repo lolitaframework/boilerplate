@@ -1,0 +1,19 @@
+{
+    "name" : "Lolita menu",
+    "description" : "Lolita menu widget",
+    "classname" : "w-menu",
+    "view" : ["\\lolitatheme\\app\\widgets\\menu\\engine\\Engine", "widget"],
+    "controls" : [
+        {
+            "name"     : "title",
+            "__TYPE__" : "Text",
+            "label"    : "Title"
+        },
+        {
+            "name"     : "location",
+            "__TYPE__" : "Select",
+            "label"    : "Location",
+            "options"  : ["\\lolitatheme\\app\\widgets\\menu\\engine\\Engine", "locations"]
+        }
+    ]
+}

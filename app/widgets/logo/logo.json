@@ -1,0 +1,17 @@
+{
+    "name" : "Lolita logo widget",
+    "description" : "Lolita logo widget",
+    "classname" : "w-logo",
+    "controls" : [
+        {
+            "__TYPE__" : "Text",
+            "name" : "url",
+            "label" : "URL"
+        },
+        {
+            "__TYPE__" : "Media",
+            "name" : "img",
+            "label" : "Logo"
+        }
+    ]
+}

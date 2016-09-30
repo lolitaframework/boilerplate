@@ -1,0 +1,3 @@
+[submodule "LolitaFramework"]
+	path = LolitaFramework
+	url = https://github.com/lolitaframework/framework.git

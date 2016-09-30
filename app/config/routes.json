@@ -1,0 +1,5 @@
+{
+    "old" : "{{ \\lolitatheme\\ModelPages::old }}",
+    "front" : "{{ \\lolitatheme\\ModelPages::home }}",
+    "home" : "{{ \\lolitatheme\\ModelPages::home }}"
+}

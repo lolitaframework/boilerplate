@@ -1,0 +1,8 @@
+[
+    ["login_enqueue_scripts", ["\\lolitatheme\\ModelActions", "defaceWordPressLogin"]],
+    ["login_init", ["\\lolitatheme\\ModelActions", "checkLogin"]],
+    ["init", ["\\lolitatheme\\ModelActions", "checkBrowser"]],
+    ["init", ["\\lolitatheme\\ModelActions", "permalinkStructure"]],
+    ["wp_ajax_search", ["\\lolitatheme\\ModelActions", "search"]],
+    ["wp_ajax_nopriv_search", ["\\lolitatheme\\ModelActions", "search"]]
+]

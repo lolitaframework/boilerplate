@@ -1,0 +1,1 @@
+<div class="lf_google_map" data-address="<?php echo esc_attr($instance['address']) ?>" data-pin-img="<?php echo $instance['pin_img'] ?>" data-api-key="<?php echo $instance['api_key'] ?>" style="height: 273px;"></div>

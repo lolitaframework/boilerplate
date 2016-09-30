@@ -1,0 +1,36 @@
+{
+    "name" : "Lolita Social networks",
+    "widget_options" : {
+        "description" : "Controls: url[ Text ], content[ Text ], icon_css[ Icons ]",
+        "classname" : "lf_interface_social_networks"
+    },
+    "controls" : [
+        {
+            "name"     : "title",
+            "__TYPE__" : "Text",
+            "label"    : "Title"
+        },
+        {
+            "name"     : "collection",
+            "__TYPE__" : "Repeater",
+            "label"    : "Social networks",
+            "controls" : [
+                {
+                    "name"     : "url",
+                    "__TYPE__" : "Text",
+                    "label"    : "Link"
+                },
+                {
+                    "name"     : "content",
+                    "__TYPE__" : "Text",
+                    "label"    : "Content"
+                },
+                {
+                    "name"     : "icon_css",
+                    "__TYPE__" : "Icons",
+                    "label"    : "Icon css class"
+                }
+            ]
+        }
+    ]
+}

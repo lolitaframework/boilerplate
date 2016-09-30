@@ -1,0 +1,28 @@
+{
+    "name" : "Lolita google map",
+    "description" : "Lolita google map widget",
+    "classname" : "lf_gmap",
+    "view" : ["\\lolitatheme\\app\\widgets\\gmap\\engine\\Engine", "widget"],
+    "controls" : [
+        {
+            "name"     : "title",
+            "__TYPE__" : "Text",
+            "label"    : "Title"
+        },
+        {
+            "name"     : "api_key",
+            "__TYPE__" : "Text",
+            "label"    : "API key"
+        },
+        {
+            "name"     : "address",
+            "__TYPE__" : "Textarea",
+            "label"    : "Address"
+        },
+        {
+            "name"     : "pin_img",
+            "__TYPE__" : "Textarea",
+            "label"    : "Pin image"
+        }
+    ]
+}

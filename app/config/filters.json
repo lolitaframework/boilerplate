@@ -1,0 +1,4 @@
+[
+    ["generate_rewrite_rules", ["\\lolitatheme\\ModelFilters", "rewriteAdminUrl"]],
+    ["upload_mimes", ["\\lolitatheme\\ModelFilters", "addMimeSvg"]]
+]

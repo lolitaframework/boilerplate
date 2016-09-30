@@ -1,1 +1,1 @@
-# lolitatheme
+# Standard theme for Pindrop Projects
